@@ -17,7 +17,7 @@ button {
 /**
  * 1) Button or link that has functionality to it
  */
- .c-btn {
+ .btn {
   display: flex;
   background: #0000ff;
   color: #fff;
@@ -29,7 +29,7 @@ button {
 /**
  * 1) Button or link that has functionality to it
  */
- .c-btn--primary {
+ .btn-primary {
   display: flex;
   background: #0000ff;
   color: #fff;
@@ -42,21 +42,17 @@ button {
  * Secondary button
  * 1) Different button style
  */
-.c-btn--secondary {
+.btn-secondary {
   background: #eee;
   color: #222;
   border: 1px solid #eee;
   border-radius: 10px;
 }
 
-.c-btn__icon {
-  fill: #fff;
-}
-
-.c-btn__text + .c-btn__icon {
+.btn-text + .btn-icon {
   margin-left: 0.5rem;
 }
 
-.c-btn__icon + .c-btn__text {
+.btn-icon + .btn-text {
   margin-left: 0.5rem;
 }

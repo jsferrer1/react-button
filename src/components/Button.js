@@ -5,8 +5,8 @@ import './Button.css';
 
 export default class Button extends Component {
   render() {
-    const btnClass = classnames('c-btn', this.props.className, {
-      'c-btn--secondary': this.props.issecondary
+    const btnClass = classnames('btn', this.props.className, {
+      'btn-secondary': this.props.issecondary
     });
 
     return (
@@ -16,7 +16,7 @@ export default class Button extends Component {
         {...this.props}
       >
         {this.props.text && (
-          <span className='c-btn__text'>{this.props.text}</span>
+          <span className='btn-text'>{this.props.text}</span>
         )}
       </button>
     );
